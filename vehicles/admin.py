@@ -1,8 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
-
 from vehicles.models import Vehicle, VehicleType
+
 
 @admin.register(VehicleType)
 class VehicleTypeAdmin(admin.ModelAdmin):

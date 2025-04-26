@@ -1,6 +1,4 @@
-#crude atravez da api
-
-from django.urls import path, include 
+from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from customers.views import CustomerViewSet
 
@@ -10,5 +8,4 @@ router.register('customers', CustomerViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-    #incluindo as urls/rotas do app customers à api
 ]

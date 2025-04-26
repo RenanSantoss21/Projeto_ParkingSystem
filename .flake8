@@ -1,0 +1,6 @@
+[flake8]
+# Verifica o código Python com o flake8
+# De acordo com os padrões de boas práticas do PEP 08
+
+exclude = .venv, __init__.py
+ignore = E501
